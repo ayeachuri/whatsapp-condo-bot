@@ -1,15 +1,4 @@
 from .app import create_app
-import logging
-
-logger = logging.getLogger(__name__)
-
-
-
-#def start_ngrok():
-#    # Start ngrok tunnel to expose your local server
-#    http_tunnel = ngrok.connect(5000)
-#    logger.info(f"Ngrok tunnel established at: {http_tunnel.public_url}")
-#    return http_tunnel.public_url
 
 app = create_app()
 

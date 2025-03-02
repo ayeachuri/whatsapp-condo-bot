@@ -1,5 +1,5 @@
 -- Units and Users
-CREATE TABLE units (
+CREATE TABLE condo_bot_schema.units (
     id SERIAL PRIMARY KEY,
     unit_number VARCHAR(20) UNIQUE NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
