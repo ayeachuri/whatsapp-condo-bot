@@ -11,7 +11,7 @@ sys.path.insert(0, src_path)
 from src.app import create_app
 
 #for Gunicorn
-application = create_app()
+app = create_app()
 
 if __name__ == "__main__":
-    application.run()
+    app.run()
