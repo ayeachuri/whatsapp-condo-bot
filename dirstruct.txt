@@ -1,0 +1,42 @@
+Directory structure of: /d/whatsapp-condo-bot
+
+.
+.env
+.git
+.gitignore
+.vscodesettings.json
+Documentation
+  ├── Context Manager Flow Diagramn.svg
+  ├── Postgres
+  ├──   ├── Script - Create Tables.sql
+  ├── README.md
+config
+dirstruct.txt
+dirtree.py
+dirtree.sh
+render.yaml
+requirements.txt
+runetime.txt
+src
+  ├── README.txt
+  ├── __init__.py
+  ├── __pycache__
+  ├──   ├── __init__.cpython-39.pyc
+  ├──   ├── app.cpython-39.pyc
+  ├──   ├── data_access.cpython-39.pyc
+  ├──   ├── db_utils.cpython-39.pyc
+  ├──   ├── routes.cpython-39.pyc
+  ├──   ├── run.cpython-39.pyc
+  ├── app.py
+  ├── data_access.py
+  ├── db_utils.py
+  ├── routes.py
+  ├── run.py
+  ├── webhook_handler.py
+venv
+  ├── Include
+  ├── Lib
+  ├──   ├── site-packages
+  ├── Scripts
+  ├── pyvenv.cfg
+wsgi.py
